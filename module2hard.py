@@ -10,6 +10,5 @@ for x in range(1, 21):
         if key_ % c == 0:
             result.append(x)
             result.append(y)
-        continue
-
+        
 print('result - ', *result)
